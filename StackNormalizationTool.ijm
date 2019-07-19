@@ -8,8 +8,8 @@ stack = getTitle()
 // User Dialog to identify frames
 Dialog.create("Frame to Normalize")
 Dialog.addMessage("Image Slice(s) to Normalize Against?")
-Dialog.addNumber("slice start = ", 53)
-Dialog.addNumber("slice end = ", 58)
+Dialog.addNumber("slice start = ", 1)
+Dialog.addNumber("slice end = ", 1)
 Dialog.show()
 
 frame1 = Dialog.getNumber();
